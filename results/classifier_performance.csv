@@ -1,0 +1,11 @@
+"Model","Accuracy"
+"Linear Discriminant Analysis",98.35
+"XGBoost",98.35
+"AdaBoost",98.35
+"Elastic Net",98.08
+"SVM",97.8
+"GBM",97.53
+"Decision Tree",96.98
+"Logistic Regression",96.43
+"Neural Network",95.6
+"Naive Bayes",93.96

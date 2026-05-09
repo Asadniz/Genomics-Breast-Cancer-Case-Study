@@ -1,0 +1,33 @@
+# =============================================
+# TCGA-BRCA Multi-Omics Project - .gitignore
+# =============================================
+
+# Large raw data files
+BRCA data/
+*.txt
+*.seg
+*.seg.txt
+*.maf*
+*.gz
+data/raw/
+data/input/
+
+# Keep documentation
+!data/README_data.md
+!data/*.md
+
+# R and notebook artifacts
+.Rhistory
+.RData
+*.RData
+*.rda
+*.rds
+.ipynb_checkpoints/
+__pycache__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
